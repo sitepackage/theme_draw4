@@ -336,18 +336,18 @@ form .hint_area {
 #header .logo {
 	display: block;
   width: 250px;
-  height: 100px;
+  height: 115px;
 	overflow:hidden;	
 }
 #header .logo_wrapper {
 	position:absolute;
   z-index: 10;
   overflow: hidden;
-	top:20px;
+	top:5px;
 	left:0px;
 }
 #header .logo_wrapper .logo {
-  background: transparent no-repeat left top;
+  background: transparent no-repeat center center;
 }
 #header .site_name {
   font-size: 3em;
@@ -1064,6 +1064,7 @@ form .hint_area {
 }
 #product .featured_image {
   float:left;
+  width:242px;
 }
 #product .featured_image a{
 	display:block;
@@ -1107,7 +1108,7 @@ form .hint_area {
 	padding: 0;
   margin: 10px 0 0 0;
   float: left;
-  width: 250px;
+  width: 242px;
 }
 #product .extra_images ul {
 	padding: 0;
@@ -1120,8 +1121,11 @@ form .hint_area {
 	width: 50px;
 	height: 50px;
 	background: transparent no-repeat center center;
-	margin: 0 10px 10px 0;
+	margin: 0 11px 10px 0;
 	border: 1px solid #eaeaea;
+}
+#product .extra_images .last span {
+  margin: 0 0px 10px 0;
 }
 #product .buy {
   float: left;
